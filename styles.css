@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* CSS header */
+#header {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 7px solid #C59D5F;
+    align-items: center;
+    background-color: #FBF7EF;
+}
+
+#header .logo{
+    width: 250px;
+}
+
+#header .nav {
+    width: calc(100% - 350px);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 100px;
+}
+
+#header .find {
+    width: 100px;
+    text-align: right;
+}
+
+#header .find i {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0 5px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* CSS banner */
+#banner {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#banner .images {
+    width: 50%;
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+}
+
+.images .discount {
+    width: 180px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+#banner .text {
+    width: 50%;
+}
+
+/* CSS product */
+.prod {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: #FBF7EF;
+}
+
+.prod h3 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.prod .list_prod {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.list_prod .item_prod {
+    padding: 10px;
+    flex: 1 1 calc(25% - 30px);
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.item_prod img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.item_prod .info {
+    padding: 10px;
+}
+/* CSS about */
+#about {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#about .total {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.total ul {
+    width: 25%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.total .images {
+    width: 50%;
+}
+
+/* CSS delivery */
+#delivery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+
+#delivery .text {
+    width: 50%;
+}
+
+#delivery .text ul li {
+    display: inline-block;
+    width: 45%;
+}
+
+#delivery .images {
+    width: 50%;
+}
+
+/* CSS cook */
+#cook {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #FBF7EF;
+}
+
+#cook .list_chef {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.list_chef .item_chef {
+    padding: 0 10px;
+    flex: 1 1 calc(25% - 20px);
+}
+
+.item_chef img {
+    width: 100%;
+}
+
+.item_chef .info {
+    padding: 10px;
+}
+
+#cook .intro {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cook h3 {
+    width: 50%;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* CSS oder */
+#oder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url(./images/oder.png);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#oder form {
+    width: 600px;
+}
+
+#oder .title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#oder label {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #ccc;
+}
+
+#oder input {
+    width: 100%;
+    padding: 15px 20px;
+    color: #ccc;
+}
+
+#oder .input_name, #oder .input_date, #oder .input_phone, #oder .input_cmt {
+    margin-bottom: 20px;
+}
+
+#oder .input_btn input {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* CSS footer */
+#footer {
+    padding-top: 20px;
+    background: #C59D5F;
+    color: #fff;
+}
+
+#footer h5 {
+    text-decoration: underline;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#footer ul li {
+    padding: 5px 0;
+}
+
+#footer .top {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+    width: 25%;
+}
+
+#footer .bottom {
+    padding: 20px 0;
+    text-align: right;
+}
