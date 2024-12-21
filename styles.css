@@ -156,8 +156,27 @@
 }
 
 .item_prod .info {
-    padding: 10px;
+    padding: 20px;
 }
+
+.item_prod .info .name {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.item_prod:hover .info .name {
+    color: #126657;
+}
+
+.item_prod .info .price {
+    color: #f00;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 /* CSS about */
 #about {
     margin-top: 10px;
@@ -195,6 +214,14 @@
     gap: 100px;
 }
 
+.total ul h4 {
+    color: #126657;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
 .total .images {
     width: 50%;
 }
@@ -209,16 +236,40 @@
 }
 
 #delivery .text {
-    width: 50%;
+    width: 55%;
 }
+
+#delivery .text .intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#delivery .text h3 {
+    color: #126657;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#delivery .text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 
 #delivery .text ul li {
     display: inline-block;
     width: 45%;
+    background: #FBF7EF;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 #delivery .images {
-    width: 50%;
+    width: 45%;
 }
 
 /* CSS cook */
@@ -289,6 +340,7 @@
     width: 100%;
     padding: 15px 20px;
     color: #ccc;
+    font-size: 14px;
 }
 
 #oder .input_name, #oder .input_date, #oder .input_phone, #oder .input_cmt {
@@ -298,7 +350,8 @@
 #oder .input_btn input {
     width: 200px;
     margin-top: 20px;
-    background: #0f0;
+    background: #086050;
+    font-size: 14px;
 }
 
 /* CSS footer */
