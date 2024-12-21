@@ -28,7 +28,17 @@
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
+}
+
+#header .nav a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+#header .nav li:hover a{
+    color: #f00;;
 }
 
 #header .find {
@@ -74,6 +84,37 @@
     width: 50%;
 }
 
+#banner .text .intro {
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+#banner .text h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #126657;
+    margin-bottom: 40px;
+}
+
+#banner .text p {
+    font-size: 24px;
+    color: #A2A2A2;
+    margin-bottom: 50px;
+}
+
+#banner .text .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #126657;
+    border: 2px solid #126657;
+}
+
+#banner .text .btn:hover {
+    background: #126657;
+    color: #fff;
+}
+
 /* CSS product */
 .prod {
     padding-top: 10px;
@@ -84,8 +125,10 @@
 .prod h3 {
     color: #000;
     text-align: center;
-    font-size: 24px;
-    padding: 30px;
+    font-size: 36px;
+    padding: 50px 0;
+    font-weight: bolder;
+    color: #126657;
 }
 
 .prod .list_prod {
@@ -97,9 +140,14 @@
 .list_prod .item_prod {
     padding: 10px;
     flex: 1 1 calc(25% - 30px);
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 30px;
     background: #fff;
+}
+
+.list_prod .item_prod:hover {
+    border: 2px solid #f00;
+
 }
 
 .item_prod img {
@@ -115,6 +163,22 @@
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+#about .intro {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#about h3 {
+    color: #126657;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 #about .total {
@@ -234,6 +298,7 @@
 #oder .input_btn input {
     width: 200px;
     margin-top: 20px;
+    background: #0f0;
 }
 
 /* CSS footer */
